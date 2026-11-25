@@ -1,0 +1,126 @@
+{
+  "target_subjects": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "within_summary": [
+    {
+      "model": "DGCNN",
+      "accuracy_pct_mean": 85.106,
+      "accuracy_pct_std": 11.744,
+      "macro_f1_mean": 0.848
+    },
+    {
+      "model": "MLP",
+      "accuracy_pct_mean": 86.445,
+      "accuracy_pct_std": 10.563,
+      "macro_f1_mean": 0.861
+    },
+    {
+      "model": "SVM",
+      "accuracy_pct_mean": 85.231,
+      "accuracy_pct_std": 10.38,
+      "macro_f1_mean": 0.848
+    },
+    {
+      "model": "TSception",
+      "accuracy_pct_mean": 84.09,
+      "accuracy_pct_std": 11.226,
+      "macro_f1_mean": 0.838
+    }
+  ],
+  "loso_summary": [
+    {
+      "model": "DGCNN_DANN",
+      "accuracy_pct_mean": 79.725,
+      "accuracy_pct_std": 9.148,
+      "macro_f1_mean": 0.796
+    },
+    {
+      "model": "DGCNN_MMD",
+      "accuracy_pct_mean": 84.083,
+      "accuracy_pct_std": 8.561,
+      "macro_f1_mean": 0.839
+    },
+    {
+      "model": "DGCNN_MMD_DANN",
+      "accuracy_pct_mean": 84.754,
+      "accuracy_pct_std": 7.392,
+      "macro_f1_mean": 0.846
+    },
+    {
+      "model": "DGCNN_NoDA",
+      "accuracy_pct_mean": 75.696,
+      "accuracy_pct_std": 8.889,
+      "macro_f1_mean": 0.751
+    },
+    {
+      "model": "MLP",
+      "accuracy_pct_mean": 68.159,
+      "accuracy_pct_std": 11.524,
+      "macro_f1_mean": 0.677
+    },
+    {
+      "model": "SVM",
+      "accuracy_pct_mean": 66.991,
+      "accuracy_pct_std": 11.589,
+      "macro_f1_mean": 0.665
+    },
+    {
+      "model": "TSception",
+      "accuracy_pct_mean": 72.945,
+      "accuracy_pct_std": 7.268,
+      "macro_f1_mean": 0.722
+    }
+  ],
+  "region_connectivity": [
+    {
+      "brain_region": "Temporal",
+      "n_electrodes": 6,
+      "mean_edge_gain": 1.4659,
+      "relative_plasticity_pct": 25.93,
+      "contribution_share_pct": 30.25
+    },
+    {
+      "brain_region": "Frontal",
+      "n_electrodes": 14,
+      "mean_edge_gain": 1.2539,
+      "relative_plasticity_pct": 19.12,
+      "contribution_share_pct": 22.3
+    },
+    {
+      "brain_region": "Occipital",
+      "n_electrodes": 12,
+      "mean_edge_gain": 1.3227,
+      "relative_plasticity_pct": 15.46,
+      "contribution_share_pct": 18.03
+    },
+    {
+      "brain_region": "Parietal",
+      "n_electrodes": 9,
+      "mean_edge_gain": 1.411,
+      "relative_plasticity_pct": 14.12,
+      "contribution_share_pct": 16.46
+    },
+    {
+      "brain_region": "Central",
+      "n_electrodes": 21,
+      "mean_edge_gain": 1.1485,
+      "relative_plasticity_pct": 11.11,
+      "contribution_share_pct": 12.95
+    }
+  ]
+}

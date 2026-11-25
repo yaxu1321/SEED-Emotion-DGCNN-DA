@@ -1,0 +1,6 @@
+brain_region,n_electrodes,mean_edge_gain,relative_plasticity_pct,contribution_share_pct
+Temporal,6,1.4659,25.93,30.25
+Frontal,14,1.2539,19.12,22.3
+Occipital,12,1.3227,15.46,18.03
+Parietal,9,1.411,14.12,16.46
+Central,21,1.1485,11.11,12.95

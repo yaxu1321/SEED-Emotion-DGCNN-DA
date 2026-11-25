@@ -1,0 +1,33 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Raw EEG datasets & large binary checkpoints (downloaded locally or mounted via Drive)
+**/data/mne_data/
+**/data/SEED/
+**/data/*.mat
+**/data/*.zip
+**/data/dataset_manifest.json
+*.mat
+*.gdf
+*.edf
+*.set
+*.fdt
+*.pt
+*.pth
+*.ckpt
+
+# Runtime logs & OS metadata
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
